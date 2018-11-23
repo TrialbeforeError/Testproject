@@ -1,0 +1,5 @@
+#local clone of github project
+git clone <remote address>
+git add <file> 
+git status
+git commit -a
