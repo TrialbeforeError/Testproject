@@ -1,5 +1,17 @@
-#local clone of github project
+# local clone of github project
 git clone <remote address>
+
+# add file to your repository
 git add <file> 
+
+# gives you the status
 git status
+
+# commit changes in all files
 git commit -a
+
+# push your committed changes to the original
+git push
+
+#show log of changes 
+git log -10
