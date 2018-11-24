@@ -15,3 +15,10 @@ git push
 
 #show log of changes 
 git log -10
+
+# configure your github account
+git config --global user.name "<name>"
+
+# configure your github emailaccount
+git config --global user.email "<email-address>"
+
