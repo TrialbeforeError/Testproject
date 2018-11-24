@@ -8,10 +8,12 @@ git add <file>
 git status
 
 # commit changes in all files
-git commit -a
+git commit -a -m
 
 # push your committed changes to the original
 git push
+git push origin master
+
 
 #show log of changes 
 git log -10
@@ -21,4 +23,9 @@ git config --global user.name "<name>"
 
 # configure your github emailaccount
 git config --global user.email "<email-address>"
+
+# list your git configuration
+git config --list
+
+
 
